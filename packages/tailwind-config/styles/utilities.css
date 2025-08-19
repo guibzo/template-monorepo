@@ -1,0 +1,15 @@
+@utility custom-focus-within {
+  @apply ring-offset-background focus-within:border-primary focus-within:ring-primary/70 focus-visible:caret-primary focus-within:ring-2 focus-within:ring-offset-[1px] focus-visible:outline-none;
+}
+
+@utility custom-focus-visible {
+  @apply ring-primary focus-visible:border-primary focus-visible:caret-primary focus-visible:ring-primary/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-[1px];
+}
+
+@utility reset-focus {
+  @apply focus-visible:caret-foreground ring-0 focus-within:border-transparent focus-within:outline-none focus-within:ring-0 focus-within:ring-offset-0 focus:border-transparent focus:shadow-none focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:border-transparent focus-visible:shadow-none focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0;
+}
+
+@utility centered {
+  @apply items-center justify-center;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@valley/prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "prettier": "catalog:",
+    "prettier-plugin-classnames": "^0.8.2",
+    "prettier-plugin-merge": "^0.8.0",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  },
+  "peerDependencies": {
+    "prettier": "catalog:",
+    "prettier-plugin-tailwindcss": "catalog:",
+    "prettier-plugin-classnames": "catalog:",
+    "prettier-plugin-merge": "catalog:"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "prettier": "./index.js"
+}
