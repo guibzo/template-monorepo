@@ -14,7 +14,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "ui-add": "pnpm dlx shadcn@latest add && prettier src --write --list-different"
+    "ui-add": "pnpm dlx shadcn@latest add && prettier src --write --list-different",
+    "format": "prettier --check . --ignore-path ../../.gitignore"
   },
   "peerDependencies": {
     "react": "catalog:react19"

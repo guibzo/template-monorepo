@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format": "prettier --check . --ignore-path ../../.gitignore"
+  },
   "exports": {
     ".": "./styles/global.css",
     "./postcss": "./postcss.config.js"
@@ -18,9 +21,12 @@
     "@tailwindcss/postcss": "catalog:"
   },
   "devDependencies": {
+    "@valley/prettier-config": "workspace:*",
     "postcss": "catalog:",
     "@tailwindcss/postcss": "catalog:",
     "tailwindcss": "catalog:",
-    "@tailwindcss/cli": "^4.1.5"
-  }
+    "@tailwindcss/cli": "^4.1.5",
+    "prettier": "catalog:"
+  },
+  "prettier": "@valley/prettier-config"
 }
