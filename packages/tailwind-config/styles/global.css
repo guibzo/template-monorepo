@@ -8,4 +8,6 @@
 @import './tokens.css';
 @import './utilities.css';
 
+@source '../../ui';
+
 @custom-variant dark (&:is(.dark *));

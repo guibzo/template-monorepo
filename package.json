@@ -6,7 +6,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
-    "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache"
+    "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache",
+    "ui-add": "turbo run ui-add"
   },
   "devDependencies": {
     "prettier": "catalog:",
