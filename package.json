@@ -1,5 +1,5 @@
 {
-  "name": "valley-web",
+  "name": "@valley/web",
   "private": true,
   "scripts": {
     "build": "turbo run build",

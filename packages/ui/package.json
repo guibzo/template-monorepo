@@ -10,7 +10,8 @@
   ],
   "exports": {
     "./cn": "./src/lib/cn.ts",
-    "./card": "./src/components/card.tsx"
+    "./card": "./src/components/ui/card.tsx",
+    "./button": "./src/components/ui/button.tsx"
   },
   "license": "MIT",
   "scripts": {
@@ -21,16 +22,18 @@
     "react": "catalog:react19"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
     "@valley/eslint-config": "workspace:*",
     "@valley/prettier-config": "workspace:*",
     "@valley/tailwind-config": "workspace:*",
     "@valley/typescript-config": "workspace:*",
-    "@types/react": "catalog:react19",
-    "@types/react-dom": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"

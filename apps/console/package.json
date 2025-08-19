@@ -1,19 +1,17 @@
 {
-  "name": "@valley/forum",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "@valley/console",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev --port 3001 --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint",
-    "check-types": "tsc --noEmit",
     "format": "prettier --check . --ignore-path ../../.gitignore"
   },
   "dependencies": {
     "@valley/ui": "workspace:*",
-    "next": "^15.4.2",
+    "@tailwindcss/vite": "^4.1.11",
     "react": "catalog:react19",
     "react-dom": "catalog:react19"
   },
@@ -22,16 +20,17 @@
     "@valley/tailwind-config": "workspace:*",
     "@valley/typescript-config": "workspace:*",
     "@valley/prettier-config": "workspace:*",
-    "@types/node": "^22.15.30",
+    "@tsconfig/vite-react": "^7.0.0",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",
-    "@tailwindcss/postcss": "catalog:",
-    "tailwindcss": "catalog:",
-    "postcss": "catalog:",
-    "prettier": "catalog:",
-    "autoprefixer": "^10.4.20",
+    "@vitejs/plugin-react": "^4.6.0",
     "eslint": "catalog:",
-    "typescript": "catalog:"
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vite": "^7.0.4",
+    "postcss": "catalog:",
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:"
   },
   "prettier": "@valley/prettier-config"
 }
