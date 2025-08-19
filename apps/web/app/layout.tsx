@@ -1,7 +1,6 @@
-import '@valley/ui/styles.css'
 import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
-import './globals.css'
+import './style.css'
 
 const geist = Geist({ subsets: ['latin'] })
 

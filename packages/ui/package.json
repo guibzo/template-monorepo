@@ -14,23 +14,25 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react": "catalog:"
+    "react": "catalog:react19"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
   },
   "devDependencies": {
-    "@types/react": "catalog:",
     "@valley/eslint-config": "workspace:*",
     "@valley/prettier-config": "workspace:*",
     "@valley/tailwind-config": "workspace:*",
     "@valley/typescript-config": "workspace:*",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
-    "react": "catalog:",
-    "tailwindcss": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "tailwindcss": "catalog:"
   },
-  "prettier": "@valley/prettier-config",
-  "dependencies": {
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.6.0"
-  }
+  "prettier": "@valley/prettier-config"
 }

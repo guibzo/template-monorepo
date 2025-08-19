@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "forum",
   "version": "1.0.0",
   "type": "module",
   "private": true,
@@ -14,8 +14,8 @@
   "dependencies": {
     "@valley/ui": "workspace:*",
     "next": "^15.4.2",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
   },
   "devDependencies": {
     "@valley/eslint-config": "workspace:*",
@@ -23,12 +23,14 @@
     "@valley/typescript-config": "workspace:*",
     "@valley/prettier-config": "workspace:*",
     "@types/node": "^22.15.30",
-    "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:",
+    "postcss": "catalog:",
     "prettier": "catalog:",
     "autoprefixer": "^10.4.20",
     "eslint": "catalog:",
-    "tailwindcss": "catalog:",
     "typescript": "catalog:"
   },
   "prettier": "@valley/prettier-config"

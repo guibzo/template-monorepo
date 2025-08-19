@@ -1,3 +1,3 @@
 export const Card = () => {
-  return <div className="bg-zinc-500 centered text-white ">bozo</div>;
-};
+  return <div className='text-2xl text-red-500'>2bozo</div>
+}
