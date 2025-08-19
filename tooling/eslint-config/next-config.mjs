@@ -14,11 +14,6 @@ const eslintConfig = [
       'simple-import-sort/imports': 'error',
       'react-hooks/rules-of-hooks': 'off',
     },
-    // settings: {
-    //   next: {
-    //     rootDir: 'packages/my-app/',
-    //   },
-    // },
   }),
 ]
 

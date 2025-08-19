@@ -8,7 +8,7 @@
 @import './tokens.css';
 @import './utilities.css';
 
-@source '../../ui';
+@source '../../../packages/ui';
 
 @custom-variant dark (&:is(.dark *));
 
