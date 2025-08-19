@@ -11,3 +11,5 @@
 @source '../../ui';
 
 @custom-variant dark (&:is(.dark *));
+
+/* Remember to change paths if this file is renamed/moved, such as components.json and prettier.config.js */

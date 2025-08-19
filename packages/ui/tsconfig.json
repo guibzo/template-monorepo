@@ -1,7 +1,11 @@
 {
   "extends": "@valley/typescript-config/react-library.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src", "prettier.config.cjs"],
   "exclude": ["dist", "build", "node_modules"]
